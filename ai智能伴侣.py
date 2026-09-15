@@ -63,3 +63,4 @@ if prompt:   #字符串会自动转换为布尔值，非空字符串为True，�
     st.chat_message('assistant').write(response.choices[0].message.content)
     #保存大模型的回复
     st.session_state.messages.append({"role": "assistant", "content": response.choices[0].message.content})
+print('my second commit')
